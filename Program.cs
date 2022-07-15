@@ -58,41 +58,16 @@ namespace ProjectMahasiswa
             // PERINTAH: lengkapi kode untuk menambahkan objek mahasiswa ke dalam collection
             Console.WriteLine("Tambah Data Mahasiswa\n\n");
 
-             Console.WriteLine("NIM: ");
-            mhs1.Nim = Console.ReadLine();
-            Console.WriteLine("Nama: ");
-            mhs1.Nim = Console.ReadLine();
-            Console.WriteLine("Jenis Kelamin [L/P]: ");
-            mhs1.Nim = Console.ReadLine();
-            Console.WriteLine("IPK: ");
-            mhs1.Nim = Console.ReadLine();
-
+            Mahasiswa mhs = new Mahasiswa()
             Console.WriteLine("NIM: ");
-            mhs2.Nim = Console.ReadLine();
+            mhs.Nim = Console.ReadLine();
             Console.WriteLine("Nama: ");
-            mhs2.Nim = Console.ReadLine();
+            mhs.Nim = Console.ReadLine();
             Console.WriteLine("Jenis Kelamin [L/P]: ");
-            mhs2.Nim = Console.ReadLine();
+            mhs.Nim = Console.ReadLine();
             Console.WriteLine("IPK: ");
-            mhs2.Nim = Console.ReadLine();
+            mhs.Nim = Console.ReadLine();
 
-            Console.WriteLine("NIM: ");
-            mhs3.Nim = Console.ReadLine();
-            Console.WriteLine("Nama: ");
-            mhs3.Nim = Console.ReadLine();
-            Console.WriteLine("Jenis Kelamin [L/P]: ");
-            mhs3.Nim = Console.ReadLine();
-            Console.WriteLine("IPK: ");
-            mhs3.Nim = Console.ReadLine();
-
-            Console.WriteLine("NIM: ");
-            mhs4.Nim = Console.ReadLine();
-            Console.WriteLine("Nama: ");
-            mhs4.Nim = Console.ReadLine();
-            Console.WriteLine("Jenis Kelamin [L/P]: ");
-            mhs4.Nim = Console.ReadLine();
-            Console.WriteLine("IPK: ");
-            mhs4.Nim = Console.ReadLine();
             List<Mahasiswa> list = new List<Mahasiswa>();
 
             list.Add(mhs1);
